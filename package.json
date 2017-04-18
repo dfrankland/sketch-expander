@@ -19,6 +19,10 @@
   "homepage": "https://github.com/dfrankland/sketch-expander#readme",
   "main": "./dist/index.js",
   "bin": "./dist/cli.js",
+  "files": [
+    "dist/index.js",
+    "dist/cli.js"
+  ],
   "scripts": {
     "build": "rollup -c ./rollup.config.js && rollup -c ./rollup.config.cli.js",
     "prepublish": "npm run build"
