@@ -21,7 +21,7 @@ const {
   input: {
     alias: 'i',
     default: [],
-    describe: 'Sketch files to be expanded; can be\na globs.\n',
+    describe: 'Sketch files to be expanded; can be\nglobs.\n',
     type: 'array',
   },
   output: {
@@ -33,7 +33,7 @@ const {
   watch: {
     alias: 'w',
     default: [],
-    describe: 'Directories to watch for changes in\nSketch files; can be a globs.\n',
+    describe: 'Directories to watch for changes in\nSketch files; can be globs.\n',
     type: 'array',
   },
   root: {
