@@ -1,6 +1,6 @@
 {
   "name": "sketch-expander",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Expand Sketch files to make them easy to version control.",
   "repository": {
     "type": "git",
