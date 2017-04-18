@@ -90,7 +90,7 @@ const unzipPaths = async paths => {
           if (stats && stats.isFile() && extname(path) !== '.sketch') return true;
           return false;
         },
-        ignoreInitial: false, // TODO: change to true!
+        ignoreInitial: true,
       },
     )
     .on('add', path => unzipPaths([path]))
